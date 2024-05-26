@@ -1,8 +1,8 @@
 
 ## Sentiment Classification ##
-We use a LSTM model for sentiment classification which involves self attention.
+LSTM model for sentiment classification which involves self attention.
 
- This takes parameters from *neutralisation_params.py* file. This builds a classifier which classifies sentences into Positive and Negative. The input here is a csv file such as *sentiment_data.csv* which requires 2 columns, text and label.
+This takes parameters from *neutralisation_params.py* file. This builds a classifier which classifies sentences into Positive and Negative. The input here is a csv file such as *sentiment_data.csv* which requires 2 columns, text and label.
 
 ## Sentiment Neutralization ##
 The words which receive most attention in the sentiment classification task are removed for Sentiment Neutralization
